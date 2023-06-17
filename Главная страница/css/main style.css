@@ -536,7 +536,13 @@ body {
 
 
 /*Who u start*/
+.who_u{
+    flex-wrap: wrap;
+}
 
+.who_a_u{
+    flex-wrap: wrap;
+}
 
 .href__{
     text-decoration: none;
