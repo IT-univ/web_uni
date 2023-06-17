@@ -645,17 +645,7 @@ body {
   }
   
   
-  @media only screen and (min-width:240px) and (max-width: 767px){
-    .box-small{
-        width: 30%;
-        display: block;
-        float: none;
-        margin-right: 20px;
-    }
-    .intro_title{
-      font-size: 30px;
-    }
-  }
+
 /*Who u end*/
 
 
