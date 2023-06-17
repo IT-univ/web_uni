@@ -803,15 +803,5 @@ body {
 /*Partners end*/
 /*
 @media screen and (max-width: 650px){
-    .cards_activities{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 600px;
-    }
-
-    .cards_activities_2{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 600px;
-    }
+    
 }*/
