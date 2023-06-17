@@ -536,11 +536,7 @@ body {
 
 
 /*Who u start*/
-.who_u{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 156px;
-}
+
 
 .href__{
     text-decoration: none;
@@ -554,24 +550,13 @@ body {
     font-weight: 400;
     font-size: 40px;
 }
-
-.cards_activities{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-
+/*
 .img_who{
     display: flex;
     justify-content: flex-end;
 }
-
-  /*All about animation start*/
-  .card img {
-    margin-right: 0;
-  }
-  .cards_activities { /*аналогчино предыдущему блоку про социальные медиа*/
+*/
+.cards_activities { /*аналогчино предыдущему блоку про социальные медиа*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -580,6 +565,10 @@ body {
   .card {
     font-weight: 400;
     color: black;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
   }
   
   
@@ -648,7 +637,19 @@ body {
   .card:hover:before {
     transform: scale(21);
   }
-  /*All about animation end*/
+  
+  
+  @media only screen and (min-width:240px) and (max-width: 767px){
+    .box-small{
+        width: 30%;
+        display: block;
+        float: none;
+        margin-right: 20px;
+    }
+    .intro_title{
+      font-size: 30px;
+    }
+  }
 /*Who u end*/
 
 
@@ -801,7 +802,10 @@ body {
     max-height: 81px;
 }
 /*Partners end*/
-/*
-@media screen and (max-width: 650px){
-    
-}*/
+
+
+
+
+
+
+
