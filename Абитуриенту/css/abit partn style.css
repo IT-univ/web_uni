@@ -40,6 +40,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 @font-face {
@@ -209,8 +213,18 @@ body {
 }
 /*Header end*/
 
+.header_napr{
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
 
-
+.cem{
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+}
 
 
 /*Intra start*/
@@ -336,6 +350,18 @@ flex-wrap: wrap;
 }
 .names-preuni{
     padding-bottom: 30px;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.text-preuni{
+    margin-top: 5px;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; 
 }
 
 .cards-part{
@@ -450,3 +476,81 @@ flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
 }
+
+
+/*Footer start*/
+
+footer{
+    background-color: #d9d9d9;
+}
+@media(min-width: 650px){
+    .floor{
+        width: 95%;
+        color: #a5a5a5;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .floor-item1{
+        margin-top: 30px;
+        margin-left: 5%;
+        float: left;
+    }
+    .floor-item2{
+        margin-top: 30px;
+        margin-right: 5%;
+        float: right;
+    }
+    .floor-item3{
+        margin-left:5%;
+        max-width: 95%;
+    }
+    .footer-pic{
+        width: 80%;
+        height: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(img_footer/footer.png); 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center center;
+    }
+}
+@media(max-width: 650px){
+    .floor{
+        width: 98%;
+        color: #a5a5a5;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .floor-item1{
+        margin-top: 10px;
+        margin-left: 5%;
+        float: left;
+    }
+    .floor-item2{
+        margin-top: 10px;
+        margin-left: 5%;
+        float: left;
+    }
+    .floor-item3{
+        margin-left:5%;
+        max-width: 98%;
+    }
+    .footer-pic{
+        width: 94%;
+        height: 240px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(../img_footer/footer.png); 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center center;
+    }
+}
+.img_footer{
+
+    width: 20px;
+    margin-top: 30px;
+}
+
+/*Footer end*/
